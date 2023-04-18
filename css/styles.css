@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    text-align: center;
+  }
+  
+  div {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    margin: 0 auto;
+    transition: all;
+    transition-duration: 1110ms;
+    transition-property: all;
+    border-radius: 299px 299px 299px 299px;
+  }
+  
+  .wrap {
+    display: inline-block;
+    margin: 0 40px 20px 0;
+    background: rgba(228, 225, 228, 0.5);
+  }
+  
+  .one,
+  .two,
+  .three,
+  .four {
+    background: chocolate;
+  }
+  
+  .five,
+  .six {
+    background-color: burlywood;
+  }
+  
+  /* CSS-переходи */
+  
+  .one:hover {
+    background-color: seagreen;
+  }
+  
+  .two:hover {
+    background-color: darkgoldenrod;
+  }
+  
+  /*CSS-трансформації */
+  
+  .three:hover {
+    transform: translateX(-20px);
+  }
+  
+  .four:hover {
+    transform: translateY(20px);
+  }
+  
+  .five:hover {
+    background-color: blueviolet;
+    transform: rotate(390deg);
+  }
+  
+  .six:hover {
+    background-color: rgb(165, 42, 134);
+    transform: scaleX(1.2);
+  }
