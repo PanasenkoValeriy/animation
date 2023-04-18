@@ -63,5 +63,5 @@
   
   .six:hover {
     background-color: rgb(165, 42, 134);
-    transform: scaleX(1.2);
+    transform: scaleX(1.25);
   }
